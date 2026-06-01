@@ -1,0 +1,10 @@
+{
+	"title": "绘画",
+	"hidden": false,
+	"description": "个人手抄报.",
+	"date": "2025-12-07",
+	"location": "pencil",
+	"tags": ["作品"],
+	"layout": "masonry",
+	"columns": 3
+}
