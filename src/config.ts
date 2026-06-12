@@ -35,7 +35,7 @@ export const siteConfig: SiteConfig = {
 
 	themeColor: {
 		hue: 230, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
-		fixed: false, // 对访问者隐藏主题色选择器
+		fixed: true, // 对访问者隐藏主题色选择器
 	},
 
 	// 特色页面开关配置（关闭未使用的页面有助于提升 SEO，关闭后请记得在 navbarConfig 中移除对应链接）
@@ -140,9 +140,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/4.webp",
 				"/assets/mobile-banner/5.webp",
 				"/assets/mobile-banner/6.webp",
-				"/assets/mobile-banner/7.webp",
-				"/assets/mobile-banner/8.webp",
-				"/assets/mobile-banner/9.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -174,15 +171,15 @@ export const siteConfig: SiteConfig = {
 
 			subtitle: [
 				"人生最重要的不是我们置身何处，而是我们将前往何处",
-				"接纳自己的普通，然后拼尽全力去与众不同",
-				"人间一趟，积极向上",
+				"千里之行始于足下，接纳自己的普通，然后拼尽全力去与众不同",
+				"所有沉淀时光，都在酝酿惊喜",
 				"梦想不会发光，发光的是追逐梦想的你",
-				"愿你我都能成为更好的自己",
+				"立足当下点滴，奔赴来日辽阔，愿你我都能成为更好的自己",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
-				speed: 100, // 打字速度（毫秒）
+				speed: 80, // 打字速度（毫秒）
 				deleteSpeed: 50, // 删除速度（毫秒）
 				pauseTime: 2000, // 完全显示后的暂停时间（毫秒）
 			},
@@ -258,18 +255,15 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/3.webp",
 			"/assets/desktop-banner/4.webp",
 			"/assets/desktop-banner/5.webp",
-			
+			"/assets/desktop-banner/6.jpg",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/10.webp",
-			"/assets/mobile-banner/11.webp",
-			"/assets/mobile-banner/12.webp",
-			"/assets/mobile-banner/13.webp",
-			"/assets/mobile-banner/14.webp",
-			"/assets/mobile-banner/15.webp",
-			"/assets/mobile-banner/7.webp",
-			"/assets/mobile-banner/8.webp",
-			"/assets/mobile-banner/9.webp"
+			"/assets/mobile-banner/1.webp",
+			"/assets/mobile-banner/2.webp",
+			"/assets/mobile-banner/3.webp",
+			"/assets/mobile-banner/4.webp",
+			"/assets/mobile-banner/5.webp",
+			"/assets/mobile-banner/6.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -403,7 +397,7 @@ export const profileConfig: ProfileConfig = {
 	name: "𝔖𝔥𝔞𝔴𝔜𝔬𝔲𝔫𝔤",
 	bio: "过往皆为序章，未来自有光芒。",
 	typewriter: {
-		enable: true, // 启用个人简介打字机效果
+		enable: false, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
@@ -512,7 +506,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "公告", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "YuQi更新至9.0正式版", // 公告内容
+	content: "评论区不可以骂人哦~", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: false, // 启用链接
