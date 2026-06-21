@@ -3,8 +3,8 @@
 	"hidden": false,
 	"description": "接单/学校时期的创作.",
 	"date": "2025-12-07",
-	"location": "Art",
-	"tags": ["作品","比赛"],
+	"location": "参赛作品、画册或落地商单",
+	"tags": ["设计排版","比赛作品"],
 	"layout": "masonry",
 	"columns": 3
 }

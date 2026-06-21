@@ -1,0 +1,10 @@
+{
+	"title": "照片",
+	"hidden": false,
+	"description": "日常记录",
+	"date": "2026-6-01",
+	"location": "anywhere",
+	"tags": ["实拍", "日常"],
+	"layout": "grid",
+	"columns": 4
+}

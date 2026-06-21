@@ -1,10 +1,10 @@
 {
 	"title": "毕设展",
 	"hidden": false,
-	"description": "关于盐文化文创桌游设计",
+	"description": "池盐文创桌游的展示实拍",
 	"date": "2025-5-21",
-	"location": "盐文化",
-	"tags": ["桌游", "文创"],
+	"location": "自创盐文化桌游",
+	"tags": ["毕设", "实拍"],
 	"layout": "grid",
 	"columns": 4
 }
